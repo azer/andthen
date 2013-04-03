@@ -16,7 +16,7 @@ Simplest usage could look like:
 
 ```js
 
-andThen = require('andThen')
+andThen = require('andthen')
 
 andThen(getContents, 'posts', getPosts, 'images', getImages)(function(error, contents){
 
